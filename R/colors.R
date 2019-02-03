@@ -13,8 +13,7 @@ rtist_palettes <- list(
     hopper = c("#772F19", "#EAE48D", "#629073", "#0F2732", "#1B2320"),
     klimt = c("#7D6A3C", "#C7AB52", "#779153", "#8F7581", "#B6634E"),
     rembrandt = c("#030504", "#F4DD9B", "#811D08", "#1E1507", "#252823"),
-    munch = c("#D03908", "#193236", "#7E724C", "#B8A463", "#DA7618"),
-    MarnieLight1 = c("#95918E", "#2B2522", "#7BC7C8", "#8BBBD0", "#E4D0C4", "#B0DDEA", "#F4E8CF")
+    munch = c("#D03908", "#193236", "#7E724C", "#B8A463", "#DA7618")
 )
 
 #' A generator for color palettes from famous artists

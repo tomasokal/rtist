@@ -4,7 +4,7 @@
 \name{rtist_palettes}
 \alias{rtist_palettes}
 \title{Complete list of palettes}
-\format{An object of class \code{list} of length 11.}
+\format{An object of class \code{list} of length 10.}
 \usage{
 rtist_palettes
 }

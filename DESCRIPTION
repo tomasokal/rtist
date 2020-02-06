@@ -1,0 +1,8 @@
+Package: rtist
+Version: 0.1
+Date: 2020-02-06
+Title: rtist
+Description: Colour palettes from famous artists and paintings.
+Author: Tomas Okal <tomas.okal@gmail.com>
+Maintainer: Tomas Okal <tomas.okal@gmail.com>
+RoxygenNote: 7.0.2

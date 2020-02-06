@@ -23,7 +23,7 @@ rtist_palettes <- list(raphael = c("#FBE6C0", "#6B502C", "#BF2A1D", "#666581", "
 
 #' Artist and painting palette generator
 #'
-#' These are some famous artists.
+#' Pick an artist name and number of colours desired.
 #'
 #' @param n Number of colours desired. All palettes have 5 colours. Most colour schemes are derived from \href{http://www.skellermeyerdesigns.com/blog/10-color-palettes-based-on-famous-paintings}{10 Color Palettes Based on Famous Paintings}. If omitted, will use all colours.
 #' @param artist Name of desired artist palette. Choices are:
@@ -60,7 +60,7 @@ rtist_palette <- function(artist, n) {
 
     out <- plt[1:n]
 
-    structure(out, class = "palette", name = artist)
+    structure(out, class = "palette", name = toupper(artist))
 
 }
 
@@ -71,13 +71,29 @@ rtist_palette <- function(artist, n) {
 print.palette <- function(x, ...) {
 
     n <- length(x)
+
     old <- par(mar = c(0.5, 0.5, 0.5, 0.5))
+
     on.exit(par(old))
 
-    image(1:n, 1, as.matrix(1:n), col = x,
-          ylab = "", xaxt = "n", yaxt = "n", bty = "n")
+    image(1:n,
+          1,
+          as.matrix(1:n),
+          col = x,
+          ylab = "",
+          xaxt = "n",
+          yaxt = "n",
+          bty = "n")
 
-    rect(0, 0.9, n + 1, 1.1, col = rgb(1, 1, 1, 0.8), border = NA)
-    text((n + 1) / 2, 1, labels = attr(x, "name"), cex = 1, family = "Lato", col = "#32373D")
+    rect(0, 0.9, n + 1, 1.1,
+         col = rgb(1, 1, 1, 0.8),
+         border = NA)
+
+    text((n + 1) / 2,
+         1,
+         labels = attr(x, "name"),
+         cex = 3,
+         col = "#32373D",
+         family = "mono")
 
 }

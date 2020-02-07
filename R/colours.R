@@ -30,7 +30,7 @@ rtist_palettes <- list(raphael = c("#FBE6C0", "#6B502C", "#BF2A1D", "#666581", "
 #'   \code{raphael}, \code{hokusai}, \code{vermeer}, \code{degas}, \code{davinci},
 #'   \code{vangogh}, \code{hopper}, \code{klimt}, \code{rembrandt}, \code{munch},
 #'   \code{okeeffe}, \code{warhol}, \code{oldenburg}, \code{picasso}, \code{pollock}
-#'   @importFrom graphics rgb rect par image text
+#' @importFrom graphics rgb rect par image text
 #' @return A vector of colours.
 #' @export
 #' @keywords colours, colors, art

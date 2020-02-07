@@ -27,10 +27,9 @@ rtist_palettes <- list(raphael = c("#FBE6C0", "#6B502C", "#BF2A1D", "#666581", "
 #'
 #' @param n Number of colours desired. All palettes have 5 colours. Most colour schemes are derived from \href{http://www.skellermeyerdesigns.com/blog/10-color-palettes-based-on-famous-paintings}{10 Color Palettes Based on Famous Paintings}. If omitted, will use all colours.
 #' @param artist Name of desired artist palette. Choices are:
-#'   \code{raphael}, \code{hokusai}, \code{vermeer}, \code{degas}, \code{davinci},
-#'   \code{vangogh}, \code{hopper}, \code{klimt}, \code{rembrandt}, \code{munch},
-#'   \code{okeeffe}, \code{warhol}, \code{oldenburg}, \code{picasso}, \code{pollock}
-#' @importFrom graphics rgb rect par image text
+#'   \code{raphael}, \code{hokusai}, \code{vermeer}, \code{degas}, \code{davinci}, \code{vangogh}, \code{hopper}, \code{klimt}, \code{rembrandt}, \code{munch}, \code{okeeffe}, \code{warhol}, \code{oldenburg}, \code{picasso}, \code{pollock}
+#' @importFrom graphics rect par image text
+#' @importFrom grDevices rgb
 #' @return A vector of colours.
 #' @export
 #' @keywords colours, colors, art

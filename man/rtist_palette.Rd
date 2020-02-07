@@ -8,10 +8,7 @@ rtist_palette(artist, n)
 }
 \arguments{
 \item{artist}{Name of desired artist palette. Choices are:
-\code{raphael}, \code{hokusai}, \code{vermeer}, \code{degas}, \code{davinci},
-\code{vangogh}, \code{hopper}, \code{klimt}, \code{rembrandt}, \code{munch},
-\code{okeeffe}, \code{warhol}, \code{oldenburg}, \code{picasso}, \code{pollock}
-@importFrom graphics rgb rect par image text}
+\code{raphael}, \code{hokusai}, \code{vermeer}, \code{degas}, \code{davinci}, \code{vangogh}, \code{hopper}, \code{klimt}, \code{rembrandt}, \code{munch}, \code{okeeffe}, \code{warhol}, \code{oldenburg}, \code{picasso}, \code{pollock}}
 
 \item{n}{Number of colours desired. All palettes have 5 colours. Most colour schemes are derived from \href{http://www.skellermeyerdesigns.com/blog/10-color-palettes-based-on-famous-paintings}{10 Color Palettes Based on Famous Paintings}. If omitted, will use all colours.}
 }

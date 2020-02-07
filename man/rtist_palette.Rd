@@ -19,7 +19,7 @@ rtist_palette(artist, n)
 A vector of colours.
 }
 \description{
-These are some famous artists.
+Pick an artist name and number of colours desired.
 }
 \examples{
 rtist_palette("warhol")

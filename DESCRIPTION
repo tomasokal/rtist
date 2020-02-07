@@ -5,4 +5,5 @@ Title: rtist
 Description: Colour palettes from famous artists and paintings.
 Author: Tomas Okal <tomas.okal@gmail.com>
 Maintainer: Tomas Okal <tomas.okal@gmail.com>
+Encoding: UTF-8
 RoxygenNote: 7.0.2

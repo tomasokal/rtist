@@ -14,7 +14,7 @@ rtist_help <- function() {
                              Artist = c("Raphael", "Hokusai", "Johannes Vermeer", "Edgar Degas", "Leonardo Da Vinci", "Vincent Van Gogh", "Edward Hopper", "Gustav Klimt", "Rembrandt", "Edward Munch", "Andy Warhol", "Georgia O'Keefe", "Claes Oldenburg", "Pablo Picasso", "Jackson Pollock")
     )
 
-    print(rtist_list)
+    return(print(rtist_list))
 
 }
 

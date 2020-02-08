@@ -9,9 +9,9 @@
 
 rtist_help <- function() {
 
-    rtist_list <- data.frame(rtist = c("raphael", "hokusai", "vermeer", "degas", "davinci", "vangogh", "hopper", "klimt", "rembrandt", "munch", "warhol", "okeefe", "oldenburg", "picasso", "pollock"),
+    rtist_list <- data.frame(rtist = c("raphael", "hokusai", "vermeer", "degas", "davinci", "vangogh", "hopper", "klimt", "rembrandt", "munch", "warhol", "okeeffe", "oldenburg", "picasso", "pollock"),
                              Painting = c("Saint Catherine of Alexandria", "Great Wave off Kanagawa", "Girl with a Pearl Earring", "L Etoile", "Mona Lisa", "Starry Night", "Nighthawks", "The Kiss", "The Nightwatch", "The Scream", "Flower, 1964", "Abstraction Blue", "Red Tights with Fragment 9", "The Dream", "Number 1"),
-                             Artist = c("Raphael", "Hokusai", "Johannes Vermeer", "Edgar Degas", "Leonardo Da Vinci", "Vincent Van Gogh", "Edward Hopper", "Gustav Klimt", "Rembrandt", "Edward Munch", "Andy Warhol", "Georgia O'Keefe", "Claes Oldenburg", "Pablo Picasso", "Jackson Pollock")
+                             Artist = c("Raphael", "Hokusai", "Johannes Vermeer", "Edgar Degas", "Leonardo Da Vinci", "Vincent Van Gogh", "Edward Hopper", "Gustav Klimt", "Rembrandt", "Edward Munch", "Andy Warhol", "Georgia O'Keeffe", "Claes Oldenburg", "Pablo Picasso", "Jackson Pollock")
     )
 
     print(rtist_list)

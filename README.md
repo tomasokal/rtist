@@ -75,7 +75,7 @@ rtist::rtist_palette("picasso", 4)
 ## Credits
 
 This package was mostly built to teach me package development. It was
-largely inspired by [Ewen’s `ghibli`
+largely inspired by [Ewen Henderson’s `ghibli`
 package](https://github.com/ewenme/ghibli) and [Karthik Ram’s
 `wesanderson` package](https://github.com/karthik/wesanderson).
 

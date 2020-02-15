@@ -3,6 +3,9 @@
 
 # rtist
 
+[![Travis build
+status](https://travis-ci.org/tomasokal/rtist.svg?branch=master)](https://travis-ci.org/tomasokal/rtist)
+
 ## Overview
 
 “They’ll sell you thousands of greens. Veronese green and emerald green

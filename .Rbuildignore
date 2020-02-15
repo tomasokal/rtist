@@ -6,3 +6,5 @@
 ^NEWS\.md$
 ^figures$
 ^README-.*\.png$
+^cran-comments\.md$
+^\.travis\.yml$

@@ -69,7 +69,7 @@ rtist::rtist_palette("warhol")
 rtist::rtist_palette("picasso", 4)
 ```
 
-```{r plot, ggplot, echo = FALSE}
+```{r ggplot, echo = FALSE}
 library(ggplot2)
 library(rtist)
 

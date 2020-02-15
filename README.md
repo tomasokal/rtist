@@ -70,7 +70,7 @@ rtist::rtist_palette("warhol")
 rtist::rtist_palette("picasso", 4)
 ```
 
-<img src="man/figures/README-plot, ggplot-1.png" width="100%" />
+<img src="man/figures/README-ggplot-1.png" width="100%" />
 
 ## Credits
 

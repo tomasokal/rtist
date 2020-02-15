@@ -23,16 +23,16 @@ rtist_palettes <- list(raphael = c("#FBE6C0", "#6B502C", "#BF2A1D", "#666581", "
 
 #' Artist and painting palette generator
 #'
-#' Pick an artist name and number of colours desired.
+#' Pick an artist name and number of colors desired.
 #'
-#' @param n Number of colours desired. All palettes have 5 colours. Most colour schemes are derived from \href{http://www.skellermeyerdesigns.com/blog/10-color-palettes-based-on-famous-paintings}{10 Color Palettes Based on Famous Paintings}. If omitted, will use all colours.
+#' @param n Number of colors desired. All palettes have 5 colors. Most color schemes are derived from \href{http://www.skellermeyerdesigns.com/blog/10-color-palettes-based-on-famous-paintings}{10 Color Palettes Based on Famous Paintings}. If omitted, will use all colors.
 #' @param artist Name of desired artist palette. Choices are:
 #'   \code{raphael}, \code{hokusai}, \code{vermeer}, \code{degas}, \code{davinci}, \code{vangogh}, \code{hopper}, \code{klimt}, \code{rembrandt}, \code{munch}, \code{okeeffe}, \code{warhol}, \code{oldenburg}, \code{picasso}, \code{pollock}
 #' @importFrom graphics rect par image text
 #' @importFrom grDevices rgb
-#' @return A vector of colours.
+#' @return A vector of colors.
 #' @export
-#' @keywords colours, colors, art
+#' @keywords colors, colors, art
 #' @examples
 #' rtist_palette("warhol")
 #' rtist_palette("pollock", 4)
@@ -53,7 +53,7 @@ rtist_palette <- function(artist, n) {
 
     if (n > length(plt)) {
 
-        stop("Unfortunately, the number of requested colours is greater than what is included. Please decrease to 5 or less to continue.")
+        stop("Unfortunately, the number of requested colors is greater than what is included. Please decrease to 5 or less to continue.")
 
     }
 

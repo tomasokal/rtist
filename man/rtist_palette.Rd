@@ -10,13 +10,13 @@ rtist_palette(artist, n)
 \item{artist}{Name of desired artist palette. Choices are:
 \code{raphael}, \code{hokusai}, \code{vermeer}, \code{degas}, \code{davinci}, \code{vangogh}, \code{hopper}, \code{klimt}, \code{rembrandt}, \code{munch}, \code{okeeffe}, \code{warhol}, \code{oldenburg}, \code{picasso}, \code{pollock}}
 
-\item{n}{Number of colours desired. All palettes have 5 colours. Most colour schemes are derived from \href{http://www.skellermeyerdesigns.com/blog/10-color-palettes-based-on-famous-paintings}{10 Color Palettes Based on Famous Paintings}. If omitted, will use all colours.}
+\item{n}{Number of colors desired. All palettes have 5 colors. Most color schemes are derived from \href{http://www.skellermeyerdesigns.com/blog/10-color-palettes-based-on-famous-paintings}{10 Color Palettes Based on Famous Paintings}. If omitted, will use all colors.}
 }
 \value{
-A vector of colours.
+A vector of colors.
 }
 \description{
-Pick an artist name and number of colours desired.
+Pick an artist name and number of colors desired.
 }
 \examples{
 rtist_palette("warhol")
@@ -24,4 +24,3 @@ rtist_palette("pollock", 4)
 }
 \keyword{art}
 \keyword{colors,}
-\keyword{colours,}

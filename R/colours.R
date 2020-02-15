@@ -32,7 +32,7 @@ rtist_palettes <- list(raphael = c("#FBE6C0", "#6B502C", "#BF2A1D", "#666581", "
 #' @importFrom grDevices rgb
 #' @return A vector of colors.
 #' @export
-#' @keywords colors, colors, art
+#' @keywords color colors colour colours palette art
 #' @examples
 #' rtist_palette("warhol")
 #' rtist_palette("pollock", 4)

@@ -1,7 +1,7 @@
 Package: rtist
 Version: 0.1
 Date: 2020-02-06
-Title: A color palette generator
+Title: A Color Palette Generator
 Description: Color palettes from famous artists and paintings.
 Author: Tomas Okal <tomas.okal@gmail.com>
 Maintainer: Tomas Okal <tomas.okal@gmail.com>

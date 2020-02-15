@@ -23,4 +23,8 @@ rtist_palette("warhol")
 rtist_palette("pollock", 4)
 }
 \keyword{art}
-\keyword{colors,}
+\keyword{color}
+\keyword{colors}
+\keyword{colour}
+\keyword{colours}
+\keyword{palette}

@@ -5,6 +5,9 @@
 
 [![Travis build
 status](https://travis-ci.org/tomasokal/rtist.svg?branch=master)](https://travis-ci.org/tomasokal/rtist)
+[![status](https://tinyverse.netlify.com/badge/rtist)](https://CRAN.R-project.org/package=rtist)
+[![CRAN
+status](http://www.r-pkg.org/badges/version/rtist)](https://cran.r-project.org/package=rtist)
 
 ## Overview
 

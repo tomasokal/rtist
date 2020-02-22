@@ -19,6 +19,7 @@ library(rtist)
 # rtist
 
 [![Travis build status](https://travis-ci.org/tomasokal/rtist.svg?branch=master)](https://travis-ci.org/tomasokal/rtist)
+[![status](https://tinyverse.netlify.com/badge/<package>)](https://CRAN.R-project.org/package=rtist)
 
 ## Overview
 

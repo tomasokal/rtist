@@ -19,9 +19,12 @@ Use the palettes of famous artists in your own visualizations.
 
 ## Installation
 
-Install the latest version from GitHub.
+Install from CRAN or from Github.
 
 ``` r
+# Using install.packages().
+install.packages("rtist")
+
 # Install remotes to download.
 install.packages("remotes")
 

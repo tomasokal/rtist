@@ -8,6 +8,7 @@ status](https://travis-ci.org/tomasokal/rtist.svg?branch=master)](https://travis
 [![status](https://tinyverse.netlify.com/badge/rtist)](https://CRAN.R-project.org/package=rtist)
 [![CRAN
 status](http://www.r-pkg.org/badges/version/rtist)](https://cran.r-project.org/package=rtist)
+[![Downloads](http://cranlogs.r-pkg.org/badges/rtist?color=brightgreen)](http://www.r-pkg.org/pkg/rtist)
 
 ## Overview
 

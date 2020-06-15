@@ -44,6 +44,8 @@ install.packages("remotes")
 remotes::install_github("tomasokal/rtist")
 ```
 
+You can also use `rtist` through Emil Hvitfeldt's popular [`paletteer`](https://github.com/EmilHvitfeldt/paletteer) package.
+
 ## Palettes
 
 `rtist` provides color palettes from famous artists and paintings. You can quickly view and see all possible palettes using `rtist_help()`.
@@ -91,9 +93,7 @@ ggplot2::ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
 
 ## Credits
 
-This package was mostly built to teach me package development. It was largely inspired by [Ewen Henderson’s `ghibli`
-package](https://github.com/ewenme/ghibli) and [Karthik Ram’s `wesanderson` 
-package](https://github.com/karthik/wesanderson).
+This package was mostly built to teach me package development. It was largely inspired by Ewen Henderson’s [`ghibli`](https://github.com/ewenme/ghibli) package and Karthik Ram’s [`wesanderson`](https://github.com/karthik/wesanderson) package.
 
 The palettes themselves come from [10 Color Palettes Based on Famous Paintings](http://www.skellermeyerdesigns.com/blog/10-color-palettes-based-on-famous-paintings) and [Color Lisa](http://colorlisa.com/). Check those out for other awesome palettes.
 
